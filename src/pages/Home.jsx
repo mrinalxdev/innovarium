@@ -2,6 +2,7 @@
 import React from "react";
 import { SparklesCore } from "../components/ui/sparkles";
 import Reveal from "./Reveal";
+import { Features } from "./Features";
  
 export function Home() {
   return (
@@ -33,6 +34,7 @@ export function Home() {
 
       <Reveal />
     </div>
+      <Features />
     </>
   );
 }
